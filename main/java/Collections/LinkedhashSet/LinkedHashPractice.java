@@ -5,14 +5,14 @@ import java.util.LinkedHashSet;
 
 public class LinkedHashPractice {
     public static void main(String[] args) {
-        LinkedHashSet <String> names = new LinkedHashSet<>();
-        names.add("Nk");
-        names.add("pk");
-        names.add("lk");
-        names.add("sl");
-        names.add("mk");
-        names.add("lk");
-        names.add("");
+        LinkedHashSet <Integer> names = new LinkedHashSet<>();
+        names.add(1);
+        names.add(3);
+        names.add(6);
+        names.add(7);
+        names.add(5);
+        names.add(5);
+        names.add(8);
 
         Iterator itr = names.iterator();
         while (itr.hasNext()){

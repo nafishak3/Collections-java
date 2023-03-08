@@ -2,6 +2,7 @@ package Collections.HashSet;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Set;
 
 public class HashSetPractice {
     public static void main(String[] args) {
@@ -23,12 +24,12 @@ public class HashSetPractice {
         System.out.println("**********************");
 
         HashSet <Integer> set2 = new HashSet<>();
-        set2.add(11);
+        set2.add(1);
         set2.add(2);
-        set2.add(13);
+        set2.add(3);
         set2.add(4);
-        set2.add(58);
-        set2.add(12);
+        set2.add(5);
+        set2.add(6);
         set2.add(2);
         set2.add(15);
         set2.add(40);

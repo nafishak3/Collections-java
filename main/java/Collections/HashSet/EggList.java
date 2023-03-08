@@ -30,7 +30,18 @@ public class EggList {
         while (itr.hasNext()){
             EggHash eg = (EggHash)itr.next();
             System.out.println("Iterator " + eg.name + " " + eg.quantity + " " + eg.yolk );
+
+
         }
+
+        String s = "nafisha";
+        char[] t = s.toCharArray();
+
+        for(int i=t.length-1; i>=0; i--){
+            System.out.print(t[i]);
+        }
+        System.out.println();
+
 
     }
 }
